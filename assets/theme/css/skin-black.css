@@ -1,0 +1,461 @@
+/*
+This file for reset skin to black.
+01. BODY 
+02. HELPER
+03. COMPONENTS
+  - NAVBAR
+  - BUTTONS
+  - FORM
+  - PAGINATION
+  - TABS
+04. MAIN-HEADER 
+05. CONTENT 
+  - ABOUT
+  - SERVICES
+  - RESUME
+  - SKILLS 
+  - PORTFOLIO
+  - BLOG
+  - CONTACT
+  - TESTIMONIAL
+06. MAIN-FOOTER 
+*/
+/*============================
+     01. BODY
+============================*/
+body {
+  background-color: #323232;
+  color: #919191;
+}
+/*============================
+     02. HELPER
+============================*/
+.pace .pace-progress {
+  background: #ffffff;
+  color: #000000;
+}
+.block-section {
+  background-color: #323232;
+}
+.block-section .color-dark {
+  color: #ffffff;
+}
+.bg-secondary {
+  background-color: #282828;
+}
+.bg-secondary .color-dark {
+  color: #ffffff;
+}
+.bg-dark {
+  background-color: #0a0a0a;
+}
+.block-title {
+  border-top: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+.block-title .title-icon {
+  display: inline-block;
+  position: relative;
+}
+.block-title .title-icon:before {
+  background: #cdcdcd;
+}
+.block-title .title-icon:after {
+  background: #cdcdcd;
+}
+.block-title:before {
+  background: #282828;
+}
+.shape-bottom:before {
+  background: #282828;
+  border: 1px solid #1e1e1e;
+}
+.br-right {
+  border-right: 1px solid #1e1e1e !important;
+}
+.br-left {
+  border-left: 1px solid #1e1e1e !important;
+}
+.br-top {
+  border-top: 1px solid #1e1e1e !important;
+}
+.br-bottom {
+  border-bottom: 1px solid #1e1e1e !important;
+}
+.title-border {
+  border-top: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+hr {
+  border-top: 1px solid #1e1e1e;
+}
+.line-dash-bottom {
+  border-bottom: 1px dashed #1e1e1e;
+  padding-bottom: 12px;
+}
+/*============================
+     03. COMPONENTS
+============================*/
+/*============================
+     NAVBAR
+============================*/
+.menu-area {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #1e1e1e;
+}
+.menu-area .toogle-bars a {
+  color: #ffffff;
+}
+.menu-area .main-nav > li > a {
+  color: #cdcdcd;
+}
+.menu-area .main-nav > li > a:hover {
+  color: #ffffff;
+  outline: none;
+}
+.menu-area .main-nav > li + li:before {
+  color: #323232;
+}
+.menu-area .main-nav > li.active > a {
+  color: #ffffff;
+}
+.menu-area.nav-white-bg {
+  border-bottom: 1px solid #1e1e1e;
+  background: #323232;
+}
+.menu-area.nav-white-bg .main-nav > li > a {
+  color: #7d7d7d;
+}
+.menu-area.nav-white-bg .main-nav > li > a:hover {
+  color: #ffffff;
+}
+.menu-area.nav-white-bg .main-nav > li.active > a {
+  color: #ffffff;
+}
+.menu-area.nav-white-bg .main-nav > li + li:before {
+  color: #1e1e1e;
+}
+.menu-area.nav-fixed {
+  background: #323232;
+  z-index: 100;
+  bottom: inherit;
+  border-bottom: 1px solid #1e1e1e;
+}
+@media (min-width: 1030px) {
+  
+}
+@media (max-width: 1030px) {
+  .menu-area {
+    border-bottom: 1px solid #1e1e1e;
+    background: #323232;
+  }
+  .menu-area .main-nav > li > a {
+    color: #7d7d7d;
+  }
+  .menu-area .main-nav > li > a:hover {
+    color: #ffffff;
+  }
+  .menu-area .main-nav > li.active > a {
+    color: #ffffff;
+  }
+  .menu-area .main-nav > li + li:before {
+    color: #1e1e1e;
+  }
+  .menu-area .menu-collapse.collapse.in {
+    border-top: 1px solid #1e1e1e;
+  }
+}
+/*============================
+     BTNS
+============================*/
+.box-btn-more .btn {
+  color: #ffffff;
+  background: #323232;
+  border-left: 1px solid #1e1e1e;
+  border-right: 1px solid #1e1e1e;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.box-btn-more .btn:hover {
+  border: 1px solid #1e1e1e;
+}
+.box-btn-more:before {
+  border-top: 1px solid #1e1e1e;
+}
+.btn-flat-solid.primary-btn {
+  background-color: #1e1e1e;
+}
+/*============================
+     FORMS
+============================*/
+.form-control.form-flat {
+  background: #323232;
+  color: #ffffff;
+  border-color: #282828;
+}
+.form-control.form-flat:focus {
+  border-color: #141414;
+}
+.form-control.form-flat.error {
+  border-color: #0a0a0a;
+}
+/*============================
+     PAGINATION
+============================*/
+.flat-pagination > li > a,
+.flat-pagination > li > span,
+.flat-pagination > li > span:hover {
+  background-color: #1e1e1e;
+  color: #7d7d7d;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.03) !important;
+  -webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.03) !important;
+  -moz-box-shadow: 0 0 3px rgba(255, 255, 255, 0.03) !important;
+  -o-box-shadow: 0 0 3px rgba(255, 255, 255, 0.03) !important;
+  -ms-box-shadow: 0 0 3px rgba(255, 255, 255, 0.03) !important;
+  border-color: #141414;
+}
+.flat-pagination > li > a:hover {
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) !important;
+  -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) !important;
+  -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) !important;
+  -o-box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) !important;
+  -ms-box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) !important;
+  color: #7d7d7d;
+}
+.flat-pagination > .active > a,
+.flat-pagination > .active > span,
+.flat-pagination > .active > a:hover,
+.flat-pagination > .active > span:hover,
+.flat-pagination > .active > a:focus,
+.flat-pagination > .active > span:focus {
+  background-color: #000000;
+  border-color: #141414;
+}
+/*============================
+     TABS
+============================*/
+.flat-nav-tabs {
+  background: #282828;
+  border-top: 1px solid #1e1e1e;
+  border-left: 1px solid #1e1e1e;
+  border-right: 1px solid #1e1e1e;
+  border-bottom: 1px solid transparent;
+}
+.flat-nav-tabs > li > a,
+.flat-nav-tabs > li > a:hover,
+.flat-nav-tabs > li > a:focus {
+  border-color: #282828 !important;
+  background: #282828 !important;
+  border-bottom: 0 !important;
+  position: relative;
+  top: 1px;
+  color: #ffffff !important;
+}
+.flat-nav-tabs > li.active > a {
+  position: relative;
+  top: 1px;
+  border-color: #282828 !important;
+  border-bottom: 0;
+  box-shadow: 0 -2px 0 #000000 !important;
+  -webkit-box-shadow: 0 -2px 0 #000000 !important;
+  -moz-box-shadow: 0 -2px 0 #000000 !important;
+  -o-box-shadow: 0 -2px 0 #000000 !important;
+  -ms-box-shadow: 0 -2px 0 #000000 !important;
+  background: #323232 !important;
+}
+/*============================
+     04. MAIN-HEADER 
+============================*/
+.main-header .header-content-fixed:before {
+  background: rgba(0, 0, 0, 0.6);
+}
+.main-header .header-content-fixed:after {
+  background: rgba(0, 0, 0, 0.63);
+}
+.main-header:hover .header-content-fixed:before {
+  background: rgba(0, 0, 0, 0.78);
+}
+.main-header:hover .header-content-fixed:after {
+  background: rgba(0, 0, 0, 0.8);
+}
+.main-header .job {
+  border-bottom: 1px solid #ffffff;
+}
+.main-header .color-dark {
+  color: #ffffff;
+}
+.main-header .box-line {
+  color: #ffffff;
+  background: transparent;
+  border-color: #ffffff;
+}
+/*============================
+     05. CONTENT 
+============================*/
+/*============================
+      ABOUT
+============================*/
+.my-profile .my-pict .overfly {
+  background: rgba(0, 0, 0, 0.6);
+}
+/*============================
+      SERVICES
+============================*/
+.services li .box {
+  border-right-color: #1e1e1e;
+}
+@media (max-width: 768px) {
+  .services li .box {
+    border-bottom-color: #1e1e1e;
+  }
+}
+/*============================
+     RESUME
+============================*/
+.list-employment li .ic,
+.list-education li .ic {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+.list-employment li .number,
+.list-education li .number {
+  color: #282828;
+}
+.list-employment li .desc,
+.list-education li .desc {
+  border-top: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+.list-employment:before,
+.list-education:before {
+  background: #1e1e1e;
+}
+@media (max-width: 768px) {
+  .list-employment li,
+  .list-education li {
+    background: #323232;
+    width: 100%;
+  }
+  .list-employment li .desc,
+  .list-education li .desc {
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 0;
+  }
+  .list-employment li:last-child .desc,
+  .list-education li:last-child .desc {
+    border-bottom: 1px solid #1e1e1e;
+  }
+}
+/*============================
+     SKILLS
+============================*/
+.list-progress li .progress-line {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  padding: 5px;
+}
+.list-progress li .progress-line .line {
+  background: #ffffff;
+}
+/*============================
+     PORTFOLIO
+============================*/
+.box-work {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+}
+.box-work .work-preview .hover a.project-title {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000000;
+}
+/*============================
+     BLOG
+============================*/
+.list-blog li .box-blog {
+  background: #282828;
+  border: 1px solid #1e1e1e;
+}
+.list-blog li .box-blog .blog-bg .blog-ic {
+  background: #1e1e1e;
+}
+.list-blog li .box-blog .blog-bg:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+.post-meta {
+  border-bottom: 1px solid #1e1e1e;
+}
+.post-meta span i {
+  color: #000000;
+}
+.list-tags li a {
+  background: #1e1e1e;
+  color: #7d7d7d;
+  border: 1px solid #141414;
+}
+.comments li h5 {
+  color: #e1e1e1;
+}
+.comments li .post-comment-block {
+  border-bottom: 1px solid #1e1e1e;
+}
+.blog-content blockquote {
+  color: #d7d7d7;
+}
+/*============================
+     CONTACT
+============================*/
+.contact-area .map-area {
+  border-left: 1px solid #1e1e1e;
+  background: #1e1e1e;
+}
+.contact-area .map-area:before {
+  background: rgba(0, 0, 0, 0.7);
+}
+/*============================
+     TESTIMONIAL
+============================*/
+.box-testimonial {
+  border: 1px solid #1e1e1e;
+  background: #323232;
+  max-width: 530px;
+}
+.box-testimonial .img-profile {
+  border: 1px solid #1e1e1e;
+  background: #323232;
+}
+.carousel-testi .carousel-indicators li {
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) !important;
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) !important;
+  -moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) !important;
+  -o-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) !important;
+  -ms-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) !important;
+  background: rgba(0, 0, 0, 0.3);
+}
+.carousel-testi .carousel-indicators li.active,
+.carousel-testi .carousel-indicators li:hover {
+  background: #000000;
+}
+/*============================
+     06. MAIN-FOOTER
+============================*/
+.main-footer {
+  background: #1e1e1e;
+  border-top: 1px solid #000000;
+  border-bottom: 5px solid #000000;
+}
+.main-footer .folow-me {
+  background: #141414;
+}
+.main-footer .back-to-top {
+  color: #7d7d7d;
+  background: #141414;
+}
+.main-footer .back-to-top:hover,
+.main-footer .back-to-top:focus {
+  color: #ffffff;
+}
+.main-footer:before {
+  background: rgba(0, 0, 0, 0.1);
+}
